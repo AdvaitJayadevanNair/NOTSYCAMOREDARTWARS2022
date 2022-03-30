@@ -19,7 +19,7 @@ body {
 	text-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 	text-transform: uppercase;
 	letter-spacing: -1px;
-    line-height: 1.15em;
+	line-height: 1.15em;
 }
 .hero p {
 	font-family: 'Abel', sans-serif;
@@ -69,6 +69,7 @@ body {
 	display: flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
+    gap: 20px;
 }
 .split {
 	display: block;
@@ -111,21 +112,13 @@ body {
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	width: 95%;
-	width: 30.8333%\9;
-}
-.split-two {
-}
-.split-one .round {
-	margin: 0 2.5% 0 0;
-}
-.split-two .round {
-	margin: 0 0 0 2.5%;
+	/* width: 30.8333%\9; */
 }
 .matchup {
 	margin: 0;
 	width: 100%;
 	padding: 10px 0;
-	height: 60px;
+	min-height: 60px;
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
@@ -139,15 +132,7 @@ body {
 	position: absolute;
 	right: 5px;
 }
-.team {
-	padding: 0 5px;
-	margin: 3px 0;
-	height: 25px;
-	line-height: 25px;
-	white-space: nowrap;
-	overflow: hidden;
-	position: relative;
-}
+
 .round-two .matchup {
 	margin: 0;
 	height: 60px;

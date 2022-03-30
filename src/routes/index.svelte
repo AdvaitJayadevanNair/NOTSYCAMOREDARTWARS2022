@@ -4,16 +4,13 @@
 
 <script>
 	import { onMount } from 'svelte';
+    import Team from '../lib/team.svelte';
 
 	let data = null;
-	let firstHalfWeek1, secondHalfWeek1;
 
 	onMount(async () => {
 		const res = await fetch(`data.json`);
 		data = await res.json();
-		const half = Math.ceil(data["week1"].length / 2);    
-		firstHalfWeek1 = data["week1"].slice(0, half);
-		secondHalfWeek1 = data["week1"].slice(-half);
 	});
 </script>
 
@@ -52,7 +49,6 @@
 	</div>
 </header>
 
-
 {#if !data}
 	<h1>Loading...</h1>
 {/if}
@@ -60,75 +56,41 @@
 {#if data}
 	<section id="bracket">
 		<div class="container">
-			<div class="split split-one">
-				<div class="round round-one current">
-					<div class="round-details">Week 1<br /><span class="date">March 28</span></div>
-					{#each firstHalfWeek1 as match}
-						<ul class="matchup">
-							<li class="team team-top">{data["teams"][match.a]["name"]}<span class="score">76</span></li>
-							<li class="team team-bottom">{data["teams"][match.b]["name"]}<span class="score">82</span></li>
-						</ul>
-					{/each}
-				</div>
-				<!-- END ROUND ONE -->
-
-				<div class="round round-one">
-					<div class="round-details">Week 2<br /><span class="date">March 4</span></div>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-				</div>
-				<!-- END ROUND TWO -->
-
-				<div class="round round-one">
-					<div class="round-details">Round 3<br /><span class="date">March 22</span></div>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-				</div>
-				<!-- END ROUND THREE -->
-
-				<div class="round round-one">
-					<div class="round-details">Round 3<br /><span class="date">March 22</span></div>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-					<ul class="matchup">
-						<li class="team team-top">&nbsp;<span class="score">&nbsp;</span></li>
-						<li class="team team-bottom">&nbsp;<span class="score">&nbsp;</span></li>
-					</ul>
-				</div>
-				<!-- END ROUND FOUR -->
-			</div>
+            <div class="round round-one current">
+                <div class="round-details">Week 1<br /><span class="date">March 28</span></div>
+                {#each data["week1"] as match}
+                    <ul class="matchup">
+                        <Team judge={match.judge} teamName={data['teams'][match.a]['name']} players={data['teams'][match.a]['players']}/>
+                        <Team judge={match.judge} teamName={data['teams'][match.b]['name']} players={data['teams'][match.b]['players']}/>
+                    </ul>
+                {/each}
+            </div>
+            <!-- END ROUND ONE -->
+            <div class="round round-two">
+                <div class="round-details">Week 2<br /><span class="date">April 4</span></div>
+                {#each data["week2"] as match}
+                    <ul class="matchup">
+                        <Team judge={match.judge} teamName={data['teams'][match.a]['name']} players={data['teams'][match.a]['players']}/>
+                        <Team judge={match.judge} teamName={data['teams'][match.b]['name']} players={data['teams'][match.b]['players']}/>
+                    </ul>
+                {/each}
+            </div>
 		</div>
 	</section>
 {/if}
 
-
-
 <section class="share">
 	<div class="share-wrap">
-		<a class="share-icon" href="https://docs.google.com/document/d/10t1YIo_EGLmgZqN013qmsDePMnURhsWIExMa9-9V1qY/edit?usp=sharing"><i class="fa fa-book" /></a>
+		<a
+			class="share-icon"
+			href="https://docs.google.com/document/d/10t1YIo_EGLmgZqN013qmsDePMnURhsWIExMa9-9V1qY/edit?usp=sharing"
+			><i class="fa fa-book" /></a
+		>
 		<a class="share-icon" href="https://twitter.com/dartwarz2022"><i class="fa fa-twitter" /></a>
-		<a class="share-icon" href="https://venmo.com/code?user_id=2815419379351552226&created=1647963893.720152&printed=1"><i class="fa fa-usd" /></a>
+		<a
+			class="share-icon"
+			href="https://venmo.com/code?user_id=2815419379351552226&created=1647963893.720152&printed=1"
+			><i class="fa fa-usd" /></a
+		>
 	</div>
 </section>

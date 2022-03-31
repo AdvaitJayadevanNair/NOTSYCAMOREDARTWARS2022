@@ -63,7 +63,7 @@
 				},
 				{
 					"name": "Ferdoos Baghbanian",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Sophia Stevens",
@@ -420,7 +420,7 @@
 			"players": [
 				{
 					"name": "Nico Bello",
-					"alive": false
+					"alive": true
 				},
 				{
 					"name": "Mannie Arbabi",
@@ -436,7 +436,7 @@
 				},
 				{
 					"name": "Austin Bengal",
-					"alive": true
+					"alive": false
 				}
 			]
 		},
@@ -620,7 +620,7 @@
 			"isSubInPlay": 1,
 			"sub": {
 				"name": "Andrew Steinert",
-				"alive": true
+				"alive": false
 			},
 			"players": [
 				{
@@ -637,7 +637,7 @@
 				},
 				{
 					"name": "Aris Oshea",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Aniya Kirtley",
@@ -944,7 +944,7 @@
 				},
 				{
 					"name": "Chris Felts",
-					"alive": false
+					"alive": true
 				},
 				{
 					"name": "Luke Chhay",

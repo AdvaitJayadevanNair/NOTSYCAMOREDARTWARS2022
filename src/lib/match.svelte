@@ -34,7 +34,7 @@
 				...data['teams'][match.b]['sub'],
 				isSub: true
 			});
-		} else if (data.teams[match.a].isSubInPlay != undefined) {
+		} else if (data.teams[match.b].isSubInPlay != undefined) {
 			playersB.push({
 				...data['teams'][match.b]['sub'],
 				isNotPlaying: true,

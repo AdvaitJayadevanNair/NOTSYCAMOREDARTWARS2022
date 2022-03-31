@@ -32,7 +32,7 @@
 
 {#if data}
 	<section id="bracket">
-		<div class="info">Last Update: March 30 @ 9pm</div>
+		<div class="info">Last Update: March 31 @ 3:17pm</div>
 		<div class="info">👻 = Not Playing | 😃 = Alive | 💀 = Dead | 👑 = Winner</div>
 		<div class="info">Click on team for players</div>
 		<div class="container">
@@ -55,17 +55,30 @@
 
 <section class="share">
 	<div class="share-wrap">
-		<a
-			class="share-icon"
-			href="https://docs.google.com/document/d/10t1YIo_EGLmgZqN013qmsDePMnURhsWIExMa9-9V1qY/edit?usp=sharing"
-			><i class="fa fa-book" /></a
-		>
-		<a class="share-icon" href="https://twitter.com/dartwarz2022"><i class="fa fa-twitter" /></a>
-		<a
-			class="share-icon"
-			href="https://venmo.com/code?user_id=2815419379351552226&created=1647963893.720152&printed=1"
-			><i class="fa fa-usd" /></a
-		>
+		<span title="Rules">
+			<a
+				class="share-icon"
+				href="https://docs.google.com/document/d/10t1YIo_EGLmgZqN013qmsDePMnURhsWIExMa9-9V1qY/edit?usp=sharing"
+				><i class="fa fa-book" /></a
+			>
+		</span>
+		<span title="Twitter">
+			<a class="share-icon" href="https://twitter.com/dartwarz2022"><i class="fa fa-twitter" /></a>
+		</span>
+		<span title="Venmo">
+			<a
+				class="share-icon"
+				href="https://venmo.com/code?user_id=2815419379351552226&created=1647963893.720152&printed=1"
+				><i class="fa fa-usd" /></a
+			>
+		</span>
+		<span title="Source">
+			<a
+				class="share-icon"
+				href="https://github.com/AdvaitJayadevanNair/NOTSYCAMOREDARTWARS2022/tree/main"
+				><i class="fa fa-github" /></a
+			>
+		</span>
 		<p class="disclamer">© 2022 Advait Jayadevan Nair. All rights reserved.</p>
 		<p class="disclamer">
 			This website and any content on it is not assoiated with Sycamore High School.

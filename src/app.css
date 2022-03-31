@@ -69,7 +69,7 @@ body {
 	display: flex;
 	-webkit-flex-direction: row;
 	flex-direction: row;
-    gap: 20px;
+	gap: 20px;
 }
 .split {
 	display: block;
@@ -113,14 +113,6 @@ body {
 	flex-direction: column;
 	width: 95%;
 	/* width: 30.8333%\9; */
-}
-.matchup {
-	margin: 0;
-	width: 100%;
-	padding: 10px 0;
-	min-height: 60px;
-	-webkit-transition: all 0.2s;
-	transition: all 0.2s;
 }
 .score {
 	font-size: 11px;

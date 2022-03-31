@@ -4,13 +4,15 @@
 
 <script>
 	import { onMount } from 'svelte';
-    import Team from '../lib/team.svelte';
+	import Team from '../lib/team.svelte';
+	import Match from '../lib/match.svelte';
 
 	let data = null;
 
 	onMount(async () => {
 		const res = await fetch(`data.json`);
 		data = await res.json();
+		console.log('Fetched Data:', data);
 	});
 </script>
 
@@ -55,26 +57,22 @@
 
 {#if data}
 	<section id="bracket">
+		<div class="info">👻 = Not Playing | 😃 = Alive | 💀 = Dead | 👑 = Winner</div>
+		<div class="info">Click on team for players</div>
 		<div class="container">
-            <div class="round round-one current">
-                <div class="round-details">Week 1<br /><span class="date">March 28</span></div>
-                {#each data["week1"] as match}
-                    <ul class="matchup">
-                        <Team judge={match.judge} teamName={data['teams'][match.a]['name']} players={data['teams'][match.a]['players']}/>
-                        <Team judge={match.judge} teamName={data['teams'][match.b]['name']} players={data['teams'][match.b]['players']}/>
-                    </ul>
-                {/each}
-            </div>
-            <!-- END ROUND ONE -->
-            <div class="round round-two">
-                <div class="round-details">Week 2<br /><span class="date">April 4</span></div>
-                {#each data["week2"] as match}
-                    <ul class="matchup">
-                        <Team judge={match.judge} teamName={data['teams'][match.a]['name']} players={data['teams'][match.a]['players']}/>
-                        <Team judge={match.judge} teamName={data['teams'][match.b]['name']} players={data['teams'][match.b]['players']}/>
-                    </ul>
-                {/each}
-            </div>
+			<div class="round round-one current">
+				<div class="round-details">Week 1<br /><span class="date">March 28</span></div>
+				{#each data['week1'] as match}
+					<Match {match} {data} />
+				{/each}
+			</div>
+			<!-- END ROUND ONE -->
+			<div class="round round-two">
+				<div class="round-details">Week 2<br /><span class="date">April 4</span></div>
+				{#each data['week2'] as match}
+					<Match {match} {data} />
+				{/each}
+			</div>
 		</div>
 	</section>
 {/if}
@@ -92,5 +90,19 @@
 			href="https://venmo.com/code?user_id=2815419379351552226&created=1647963893.720152&printed=1"
 			><i class="fa fa-usd" /></a
 		>
+		<p class="disclamer">© 2022 Advait Jayadevan Nair. All rights reserved.</p>
+		<p class="disclamer">
+			This website and any content on it is not assoiated with Sycamore High School.
+		</p>
 	</div>
 </section>
+
+<style type="text/css">
+	.disclamer {
+		color: white;
+	}
+	.info {
+		width: 100%;
+		text-align: center;
+	}
+</style>

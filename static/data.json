@@ -1,11 +1,12 @@
 {
+	"lastUpdate": "March 31 @ 4:45pm",
 	"teams": [
 		{
 			"name": "Big Dick Diplomacy",
 			"players": [
 				{
 					"name": "Grace Spellman",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Erika Crimmel",
@@ -890,7 +891,7 @@
 			"players": [
 				{
 					"name": "Alisa Beaver",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Renee Newman",
@@ -898,7 +899,7 @@
 				},
 				{
 					"name": "Iris Samelak",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Sanjana Mahesh",
@@ -927,11 +928,11 @@
 				},
 				{
 					"name": "Ryan Ferguson",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Anton Chepelev",
-					"alive": true
+					"alive": false
 				}
 			]
 		},

@@ -1,0 +1,1091 @@
+{
+	"teams": [
+		{
+			"name": "Big Dick Diplomacy",
+			"players": [
+				{
+					"name": "Grace Spellman",
+					"alive": true
+				},
+				{
+					"name": "Erika Crimmel",
+					"alive": true
+				},
+				{
+					"name": "Jay Saxena",
+					"alive": true
+				},
+				{
+					"name": "Bella Lim",
+					"alive": true
+				},
+				{
+					"name": "Renata Deshevsky",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Minorities",
+			"players": [
+				{
+					"name": "Ryan Delsignore",
+					"alive": true
+				},
+				{
+					"name": "Conner Seper",
+					"alive": true
+				},
+				{
+					"name": "Ian Hailey",
+					"alive": true
+				},
+				{
+					"name": "Tanay Kothari",
+					"alive": true
+				},
+				{
+					"name": "Nicolas Samways",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Clown Town Express",
+			"players": [
+				{
+					"name": "Cora Henry",
+					"alive": false
+				},
+				{
+					"name": "Izzy Caruso",
+					"alive": false
+				},
+				{
+					"name": "Ferdoos Baghbanian",
+					"alive": true
+				},
+				{
+					"name": "Sophia Stevens",
+					"alive": false
+				},
+				{
+					"name": "Courtney Morgan",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Milf Mafia",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Jose Wilch",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Jake Isaacs",
+					"alive": true
+				},
+				{
+					"name": "Trey Bell",
+					"alive": true
+				},
+				{
+					"name": "Cairo Ford",
+					"alive": true
+				},
+				{
+					"name": "Trajan Kress",
+					"alive": true
+				},
+				{
+					"name": "Eugene Harney",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Nerf or Nothin",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Peyton Harmon",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Leah Riley",
+					"alive": false
+				},
+				{
+					"name": "Kayla Busby",
+					"alive": false
+				},
+				{
+					"name": "Ceci Apking",
+					"alive": false
+				},
+				{
+					"name": "Sydney Skinner",
+					"alive": false
+				},
+				{
+					"name": "Bella Cox",
+					"alive": false
+				}
+			]
+		},
+		{
+			"name": "Nite Ryders",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Owen Courtney",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Adrian Banke",
+					"alive": true
+				},
+				{
+					"name": "Cameron Wallace",
+					"alive": true
+				},
+				{
+					"name": "Braeden Milar",
+					"alive": true
+				},
+				{
+					"name": "Kyle Bobst",
+					"alive": true
+				},
+				{
+					"name": "Angel Chacon",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Cum Shooters",
+			"players": [
+				{
+					"name": "Keegan Burns",
+					"alive": true
+				},
+				{
+					"name": "Miles Zimmerman",
+					"alive": true
+				},
+				{
+					"name": "Miles Pishotti",
+					"alive": true
+				},
+				{
+					"name": "Kyle Creech",
+					"alive": false
+				},
+				{
+					"name": "Brian Ertle",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Milkers ✂️",
+			"players": [
+				{
+					"name": "Grant Schafer",
+					"alive": true
+				},
+				{
+					"name": "Garrett Friedrich",
+					"alive": true
+				},
+				{
+					"name": "Aidan Young",
+					"alive": true
+				},
+				{
+					"name": "Max Banke",
+					"alive": true
+				},
+				{
+					"name": "Maddox Behnfeldt",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Dunkin’ Hoe-Nuts",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Alexis Kluso",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Abby Burke",
+					"alive": true
+				},
+				{
+					"name": "Olivia Shields",
+					"alive": true
+				},
+				{
+					"name": "Emma Baecker",
+					"alive": true
+				},
+				{
+					"name": "Michael Johnson",
+					"alive": true
+				},
+				{
+					"name": "Tyrell Ellington",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Saudi Arabian Hopscotch team",
+			"players": [
+				{
+					"name": "Spencer Kahn",
+					"alive": true
+				},
+				{
+					"name": "Michael Greenberger",
+					"alive": true
+				},
+				{
+					"name": "Aaron Friedman",
+					"alive": false
+				},
+				{
+					"name": "Jack DeJonckheere",
+					"alive": true
+				},
+				{
+					"name": "Cam Messerschmidt",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "You Smell Farts; We Shoot Darts",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Joey Lansberg",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Luke Anderson",
+					"alive": true
+				},
+				{
+					"name": "Sam Anderson",
+					"alive": true
+				},
+				{
+					"name": "John Muhleman",
+					"alive": false
+				},
+				{
+					"name": "Jason Lucas",
+					"alive": true
+				},
+				{
+					"name": "Aidan Moore",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Hoochie Mamas",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Lauren Park",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Emily Siderits",
+					"alive": false
+				},
+				{
+					"name": "Rebecca Cohen",
+					"alive": false
+				},
+				{
+					"name": "Aliza Newton",
+					"alive": true
+				},
+				{
+					"name": "Pankhuri Saxena",
+					"alive": false
+				},
+				{
+					"name": "Maitte Delgado",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "GTB",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Shivam Singh",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Mikheil Meskhi",
+					"alive": true
+				},
+				{
+					"name": "Cy Khodadad",
+					"alive": true
+				},
+				{
+					"name": "Dar Khodadad",
+					"alive": true
+				},
+				{
+					"name": "Richie Mays",
+					"alive": true
+				},
+				{
+					"name": "Vadim Beresford",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Killers",
+			"players": [
+				{
+					"name": "Anna Hewitt",
+					"alive": false
+				},
+				{
+					"name": "Delaney Greve",
+					"alive": true
+				},
+				{
+					"name": "Ella Wooley",
+					"alive": true
+				},
+				{
+					"name": "Ashley Cusino",
+					"alive": true
+				},
+				{
+					"name": "Sabel Myers",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Jokers",
+			"players": [
+				{
+					"name": "Jacob Kogan",
+					"alive": true
+				},
+				{
+					"name": "Colin Colebrook",
+					"alive": true
+				},
+				{
+					"name": "Slava",
+					"alive": true
+				},
+				{
+					"name": "Eli Miller",
+					"alive": true
+				},
+				{
+					"name": "Daniel Samways",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Cough Drops",
+			"isSubInPlay": 1,
+			"sub": {
+				"name": "Brooks Tidwell",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Nico Bello",
+					"alive": false
+				},
+				{
+					"name": "Mannie Arbabi",
+					"alive": true
+				},
+				{
+					"name": "Logan Myers",
+					"alive": true
+				},
+				{
+					"name": "Alex Bellman",
+					"alive": true
+				},
+				{
+					"name": "Austin Bengal",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Doggy Style",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Tessa Wittenbaum",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Laney Simons",
+					"alive": true
+				},
+				{
+					"name": "Victoria Debrosse",
+					"alive": true
+				},
+				{
+					"name": "Madeline Ronnigan",
+					"alive": true
+				},
+				{
+					"name": "Cami Matthews",
+					"alive": true
+				},
+				{
+					"name": "Kelsey Heaton",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Kaniac Koons",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Drew Cathey",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Jacob Tueimeh",
+					"alive": true
+				},
+				{
+					"name": "Cannon Ray",
+					"alive": true
+				},
+				{
+					"name": "Jared Turner",
+					"alive": true
+				},
+				{
+					"name": "Justin Williams",
+					"alive": true
+				},
+				{
+					"name": "Will Ingle",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "GNB",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Jay Natarajan",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Timur Ulaltsov",
+					"alive": true
+				},
+				{
+					"name": "Luka Shubitidze",
+					"alive": true
+				},
+				{
+					"name": "Jal Patel",
+					"alive": true
+				},
+				{
+					"name": "Omar Abdallah",
+					"alive": true
+				},
+				{
+					"name": "Moonshig Jung",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Cumquistadors",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Ross Towbin",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Patrick Dauenhaur",
+					"alive": true
+				},
+				{
+					"name": "Colin Hurrell",
+					"alive": true
+				},
+				{
+					"name": "Connor Christenson",
+					"alive": true
+				},
+				{
+					"name": "Benjamin Wolper",
+					"alive": true
+				},
+				{
+					"name": "Alex Caldwell",
+					"alive": false
+				}
+			]
+		},
+		{
+			"name": "All Gums Team",
+			"players": [
+				{
+					"name": "Ben Southerland",
+					"alive": true
+				},
+				{
+					"name": "Austin Southerland",
+					"alive": true
+				},
+				{
+					"name": "Grant Darbyshire",
+					"alive": true
+				},
+				{
+					"name": "Bryce Darbyshire",
+					"alive": true
+				},
+				{
+					"name": "Chad Miller",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Worsties",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Hannah Medlin",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Christopher Gall",
+					"alive": true
+				},
+				{
+					"name": "Carly Andrews",
+					"alive": true
+				},
+				{
+					"name": "Nicholas Nagarajan",
+					"alive": true
+				},
+				{
+					"name": "Jude Whalen",
+					"alive": false
+				},
+				{
+					"name": "Sam Koth",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Boner Champs",
+			"isSubInPlay": 1,
+			"sub": {
+				"name": "Andrew Steinert",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Ashley Hogan",
+					"alive": true
+				},
+				{
+					"name": "Vivien Dugan-Mezensky",
+					"alive": true
+				},
+				{
+					"name": "Janet Sodi",
+					"alive": true
+				},
+				{
+					"name": "Aris Oshea",
+					"alive": true
+				},
+				{
+					"name": "Aniya Kirtley",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Is It In Yet",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Kiera Millerchip",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Audrey Schmid",
+					"alive": true
+				},
+				{
+					"name": "Evelina Tyan",
+					"alive": false
+				},
+				{
+					"name": "Megan Grubba",
+					"alive": true
+				},
+				{
+					"name": "Pippa Zolla",
+					"alive": true
+				},
+				{
+					"name": "Clarice Newman",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Dilf Hunters",
+			"players": [
+				{
+					"name": "Maddie Bobst",
+					"alive": true
+				},
+				{
+					"name": "Aleyna Duffield",
+					"alive": false
+				},
+				{
+					"name": "Avery Kulhman",
+					"alive": false
+				},
+				{
+					"name": "Madi Hennessy",
+					"alive": false
+				},
+				{
+					"name": "Lili Danner",
+					"alive": false
+				}
+			]
+		},
+		{
+			"name": "Libtards",
+			"players": [
+				{
+					"name": "Amir Isakov",
+					"alive": false
+				},
+				{
+					"name": "Matt Decker",
+					"alive": true
+				},
+				{
+					"name": "Thomas Whiteside",
+					"alive": false
+				},
+				{
+					"name": "Matthew Whiteside",
+					"alive": true
+				},
+				{
+					"name": "Adam Weber",
+					"alive": false
+				}
+			]
+		},
+		{
+			"name": "Titty Diddlers",
+			"players": [
+				{
+					"name": "Des Bolden",
+					"alive": false
+				},
+				{
+					"name": "Jackson Niblack",
+					"alive": true
+				},
+				{
+					"name": "Ryan Lake",
+					"alive": true
+				},
+				{
+					"name": "Dominic Mangano",
+					"alive": true
+				},
+				{
+					"name": "Abby Rishforth",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Supa Gremlins",
+			"players": [
+				{
+					"name": "Patrick Thompson",
+					"alive": true
+				},
+				{
+					"name": "Alex Walker",
+					"alive": true
+				},
+				{
+					"name": "Peter Hausfeld",
+					"alive": true
+				},
+				{
+					"name": "Blake Kramer",
+					"alive": true
+				},
+				{
+					"name": "Nathan Pratt",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Pedo Poppers",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Micah Nourie",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Matthew Leader",
+					"alive": true
+				},
+				{
+					"name": "Noah Ellis",
+					"alive": true
+				},
+				{
+					"name": "Scott Wolter",
+					"alive": true
+				},
+				{
+					"name": "Peter Brownell",
+					"alive": true
+				},
+				{
+					"name": "Charlie Hall",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Emerging Expectations",
+			"players": [
+				{
+					"name": "Ethan Ehrlich",
+					"alive": false
+				},
+				{
+					"name": "Ty Lorcharoensery",
+					"alive": false
+				},
+				{
+					"name": "Luke Uhlman",
+					"alive": false
+				},
+				{
+					"name": "Minseok Lee",
+					"alive": false
+				},
+				{
+					"name": "Daniel Shim",
+					"alive": false
+				}
+			]
+		},
+		{
+			"name": "Wendy’s Crew",
+			"players": [
+				{
+					"name": "Rashid Harris",
+					"alive": true
+				},
+				{
+					"name": "Cody Charles",
+					"alive": true
+				},
+				{
+					"name": "John Douthitt",
+					"alive": true
+				},
+				{
+					"name": "Cameron Lehman",
+					"alive": true
+				},
+				{
+					"name": "Kentrell Garrett",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Squiftpions",
+			"players": [
+				{
+					"name": "Will Brock",
+					"alive": true
+				},
+				{
+					"name": "Johnathan Whittenburg",
+					"alive": false
+				},
+				{
+					"name": "Aram Riley",
+					"alive": true
+				},
+				{
+					"name": "Issac Bennett",
+					"alive": true
+				},
+				{
+					"name": "Ethan Tyler",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Cock’d and Loaded",
+			"isSubInPlay": 4,
+			"sub": {
+				"name": "Jourden Hale",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Alisa Beaver",
+					"alive": true
+				},
+				{
+					"name": "Renee Newman",
+					"alive": true
+				},
+				{
+					"name": "Iris Samelak",
+					"alive": true
+				},
+				{
+					"name": "Sanjana Mahesh",
+					"alive": true
+				},
+				{
+					"name": "Adam Marshall",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Slimenem",
+			"players": [
+				{
+					"name": "David Franklin",
+					"alive": true
+				},
+				{
+					"name": "Owen Sponseller",
+					"alive": false
+				},
+				{
+					"name": "Jack McConnell",
+					"alive": true
+				},
+				{
+					"name": "Ryan Ferguson",
+					"alive": true
+				},
+				{
+					"name": "Anton Chepelev",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Penis Bandits",
+			"players": [
+				{
+					"name": "Tucker Groppe",
+					"alive": true
+				},
+				{
+					"name": "Chris Felts",
+					"alive": false
+				},
+				{
+					"name": "Luke Chhay",
+					"alive": true
+				},
+				{
+					"name": "Alonso Murakami",
+					"alive": true
+				},
+				{
+					"name": "Casey Kuykendall",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "Joe Mama on this Dart",
+			"isSubInPlay": -1,
+			"sub": {
+				"name": "Kelly Donovan",
+				"alive": true
+			},
+			"players": [
+				{
+					"name": "Katie Dippold",
+					"alive": true
+				},
+				{
+					"name": "Lucy Winkfield",
+					"alive": true
+				},
+				{
+					"name": "Ella Chapman",
+					"alive": true
+				},
+				{
+					"name": "Lily Armbruster",
+					"alive": true
+				},
+				{
+					"name": "Sasha Gordeyeva",
+					"alive": true
+				}
+			]
+		},
+		{
+			"name": "",
+			"players": []
+		}
+	],
+	"week1": [
+		{
+			"a": 0,
+			"b": 1,
+			"judge": "Alvaro"
+		},
+		{
+			"a": 2,
+			"b": 3,
+			"judge": "Alvaro"
+		},
+		{
+			"a": 4,
+			"b": 5,
+			"judge": "Alvaro"
+		},
+		{
+			"a": 6,
+			"b": 7,
+			"judge": "Alvaro"
+		},
+		{
+			"a": 8,
+			"b": 9,
+			"judge": "Alvaro"
+		},
+		{
+			"a": 10,
+			"b": 11,
+			"judge": "Alvaro"
+		},
+		{
+			"a": 12,
+			"b": 13,
+			"judge": "Brady"
+		},
+		{
+			"a": 14,
+			"b": 15,
+			"judge": "Brady"
+		},
+		{
+			"a": 16,
+			"b": 17,
+			"judge": "Brady"
+		},
+		{
+			"a": 18,
+			"b": 19,
+			"judge": "Brady"
+		},
+		{
+			"a": 20,
+			"b": 21,
+			"judge": "Brady"
+		},
+		{
+			"a": 22,
+			"b": 23,
+			"judge": "Brady"
+		},
+		{
+			"a": 24,
+			"b": 25,
+			"judge": "Liv"
+		},
+		{
+			"a": 26,
+			"b": 27,
+			"judge": "Liv"
+		},
+		{
+			"a": 28,
+			"b": 29,
+			"judge": "Liv"
+		},
+		{
+			"a": 30,
+			"b": 31,
+			"judge": "Liv"
+		},
+		{
+			"a": 32,
+			"b": 33,
+			"judge": "Liv"
+		},
+		{
+			"a": 34,
+			"b": 35,
+			"judge": "Liv"
+		}
+	],
+	"week2": []
+}

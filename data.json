@@ -891,7 +891,7 @@
 			"players": [
 				{
 					"name": "Alisa Beaver",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Renee Newman",
@@ -899,7 +899,7 @@
 				},
 				{
 					"name": "Iris Samelak",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Sanjana Mahesh",
@@ -928,11 +928,11 @@
 				},
 				{
 					"name": "Ryan Ferguson",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Anton Chepelev",
-					"alive": true
+					"alive": false
 				}
 			]
 		},

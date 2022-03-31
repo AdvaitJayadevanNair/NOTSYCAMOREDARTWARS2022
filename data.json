@@ -1,11 +1,12 @@
 {
+	"lastUpdate": "March 31 @ 3:33pm",
 	"teams": [
 		{
 			"name": "Big Dick Diplomacy",
 			"players": [
 				{
 					"name": "Grace Spellman",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Erika Crimmel",

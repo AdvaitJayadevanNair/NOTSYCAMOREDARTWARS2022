@@ -57,6 +57,7 @@
 
 {#if data}
 	<section id="bracket">
+        <div class="info">Last Update: March 30 @ 9pm</div>
 		<div class="info">👻 = Not Playing | 😃 = Alive | 💀 = Dead | 👑 = Winner</div>
 		<div class="info">Click on team for players</div>
 		<div class="container">

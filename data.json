@@ -1,5 +1,5 @@
 {
-	"lastUpdate": "March 31 @ 9:45pm",
+	"lastUpdate": "April 1 @ 9:45pm",
 	"teams": [
 		{
 			"name": "Big Dick Diplomacy",
@@ -183,7 +183,7 @@
 				},
 				{
 					"name": "Kyle Creech",
-					"alive": false
+					"alive": true
 				},
 				{
 					"name": "Brian Ertle",
@@ -200,7 +200,7 @@
 				},
 				{
 					"name": "Garrett Friedrich",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Aidan Young",
@@ -218,7 +218,7 @@
 		},
 		{
 			"name": "Dunkin’ Hoe-Nuts",
-			"isSubInPlay": -1,
+			"isSubInPlay": 4,
 			"sub": {
 				"name": "Alexis Kluso",
 				"alive": true
@@ -416,24 +416,24 @@
 			"isSubInPlay": 1,
 			"sub": {
 				"name": "Brooks Tidwell",
-				"alive": true
+				"alive": false
 			},
 			"players": [
 				{
 					"name": "Nico Bello",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Mannie Arbabi",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Logan Myers",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Alex Bellman",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Austin Bengal",
@@ -485,7 +485,7 @@
 				},
 				{
 					"name": "Cannon Ray",
-					"alive": false
+					"alive": true
 				},
 				{
 					"name": "Jared Turner",
@@ -638,7 +638,7 @@
 				},
 				{
 					"name": "Aris Oshea",
-					"alive": false
+					"alive": true
 				},
 				{
 					"name": "Aniya Kirtley",
@@ -861,7 +861,7 @@
 			"players": [
 				{
 					"name": "Will Brock",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Johnathan Whittenburg",
@@ -920,7 +920,7 @@
 				},
 				{
 					"name": "Owen Sponseller",
-					"alive": false
+					"alive": true
 				},
 				{
 					"name": "Jack McConnell",
@@ -928,7 +928,7 @@
 				},
 				{
 					"name": "Ryan Ferguson",
-					"alive": false
+					"alive": true
 				},
 				{
 					"name": "Anton Chepelev",

@@ -1,5 +1,5 @@
 {
-	"lastUpdate": "March 31 @ 4:45pm",
+	"lastUpdate": "March 31 @ 9:45pm",
 	"teams": [
 		{
 			"name": "Big Dick Diplomacy",
@@ -349,7 +349,7 @@
 				},
 				{
 					"name": "Dar Khodadad",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Richie Mays",
@@ -455,7 +455,7 @@
 				},
 				{
 					"name": "Victoria Debrosse",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Madeline Ronnigan",
@@ -485,7 +485,7 @@
 				},
 				{
 					"name": "Cannon Ray",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Jared Turner",
@@ -493,7 +493,7 @@
 				},
 				{
 					"name": "Justin Williams",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Will Ingle",

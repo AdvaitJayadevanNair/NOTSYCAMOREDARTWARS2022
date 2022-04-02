@@ -1,5 +1,5 @@
 {
-	"lastUpdate": "April 1 @ 9:43pm",
+	"lastUpdate": "April 1 @ 9:55pm",
 	"teams": [
 		{
 			"name": "Big Dick Diplomacy",
@@ -451,7 +451,7 @@
 			"players": [
 				{
 					"name": "Laney Simons",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Victoria Debrosse",
@@ -459,15 +459,15 @@
 				},
 				{
 					"name": "Madeline Ronnigan",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Cami Matthews",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Kelsey Heaton",
-					"alive": true
+					"alive": false
 				}
 			]
 		},

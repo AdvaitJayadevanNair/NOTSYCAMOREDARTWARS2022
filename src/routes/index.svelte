@@ -10,7 +10,7 @@
 	let data = null;
 
 	onMount(async () => {
-		const res = await fetch(`data.json`);
+		const res = await fetch(`data.json?nocache=${(Math.random() + 1).toString(36).substring(7)}`);
 		data = await res.json();
 		console.log('Fetched Data:', data);
 	});

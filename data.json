@@ -1,5 +1,5 @@
 {
-	"lastUpdate": "April 1 @ 9:42pm",
+	"lastUpdate": "April 1 @ 9:43pm",
 	"teams": [
 		{
 			"name": "Big Dick Diplomacy",
@@ -953,7 +953,7 @@
 				},
 				{
 					"name": "Alonso Murakami",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Casey Kuykendall",
@@ -971,7 +971,7 @@
 			"players": [
 				{
 					"name": "Katie Dippold",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Lucy Winkfield",

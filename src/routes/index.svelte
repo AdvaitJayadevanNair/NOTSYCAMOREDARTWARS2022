@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import Team from '../lib/team.svelte';
 	import Match from '../lib/match.svelte';
+	import Modal from '../lib/modal.svelte';
 
 	let data = null;
 
@@ -25,6 +26,8 @@
 		<p class="year"><i class="fa fa-star" /> 2022 <i class="fa fa-star" /></p>
 	</div>
 </header>
+
+<Modal />
 
 {#if !data}
 	<h1>Loading...</h1>

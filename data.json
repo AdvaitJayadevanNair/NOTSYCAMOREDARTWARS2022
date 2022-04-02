@@ -549,11 +549,11 @@
 				},
 				{
 					"name": "Connor Christenson",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Benjamin Wolper",
-					"alive": true
+					"alive": false
 				},
 				{
 					"name": "Alex Caldwell",

@@ -6,7 +6,8 @@
 	import { onMount } from 'svelte';
 	import Team from '../lib/team.svelte';
 	import Match from '../lib/match.svelte';
-	import Modal from '../lib/modal.svelte';
+	import Purge from '../lib/purge.svelte';
+	import Maintenance from '../lib/maintenance.svelte';
 
 	let data = null;
 
@@ -27,7 +28,8 @@
 	</div>
 </header>
 
-<Modal />
+<!-- <Purge /> -->
+<Maintenance />
 
 {#if !data}
 	<h1>Loading...</h1>

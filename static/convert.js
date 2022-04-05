@@ -8,15 +8,18 @@ let teams = [];
 for (var i = 0; i < data.teams.length; i++) {
 	teams[i] = {
 		name: data.teams[i].name,
-		players: []
+		players: [],
+		playing: []
 	};
 	for (var j = 0; j < data.teams[i].players.length; j++) {
 		players.push(data.teams[i].players[j].name);
 		teams[i].players.push(data.teams[i].players[j].name);
+		teams[i].playing.push(true);
 	}
 	if (data.teams[i].sub) {
 		players.push(data.teams[i].sub.name);
 		teams[i].players.push(data.teams[i].sub.name);
+		teams[i].playing.push(false);
 	}
 }
 
@@ -36,15 +39,15 @@ while (i + 1 < teams.length) {
 	matches.push({
 		team1: {
 			id: i,
-			alive: Array(teams[i].players.length).fill(true),
-			playing: Array(teams[i].players.length).fill(true),
+			alive: teams[i].playing,
+			playing: teams[i].playing,
 			revives: Array(teams[i].players.length).fill(0),
 			kills: Array(teams[i].players.length).fill([])
 		},
 		team2: {
 			id: i + 1,
-			alive: Array(teams[i + 1].players.length).fill(true),
-			playing: Array(teams[i + 1].players.length).fill(true),
+			alive: teams[i + 1].playing,
+			playing: teams[i + 1].playing,
 			revives: Array(teams[i + 1].players.length).fill(0),
 			kills: Array(teams[i + 1].players.length).fill([])
 		},

@@ -4,9 +4,7 @@
 
 <script>
 	import { onMount } from 'svelte';
-	import Hero from '../lib/hero.svelte';
-	import Footer from '../lib/footer.svelte';
-	import Match from '../lib/editMatch.svelte';
+	import Select from '../lib/testSelect.svelte';
 
 	let loading = true;
 	let lastUpdate,
@@ -33,184 +31,135 @@
 		loading = false;
 	});
 
-	function addWeek() {
-		weeks.push({
-			name: 'Week ?',
-			current: true,
-			date: '?',
-			matches: []
-		});
-		weeks = weeks;
-	}
-
-	function addMatch(weekIndex) {
-		weeks[weekIndex].matches.push({
-			team1: {
-				id: 0,
-				alive: [true, true, false, true, true, true],
-				playing: [true, true, true, true, true, false],
-				revives: [0, 0, 1, 0, 0, 0],
-				kills: [[6, 7], [], [], [8], [], []]
-			},
-			team2: {
-				id: 1,
-				alive: [true, true, true, true, true],
-				playing: [true, true, true, true, true],
-				revives: [0, 0, 1, 0, 0, 0],
-				kills: [[0, 1], [], [], [4, 5], []]
-			},
-			judge: 0
-		});
-		weeks = weeks;
-	}
-
 	function getData() {
-		console.log('Get Data:', {
-			lastUpdate,
-			judges,
-			players,
-			weeks,
-			teams
-		});
+		console.log(
+			'Get Data:',
+			JSON.stringify(
+				{
+					lastUpdate,
+					judges,
+					players,
+					weeks,
+					teams
+				},
+				null,
+				4
+			)
+		);
 	}
 </script>
-
-<svelte:head />
-
-<Hero />
 
 {#if loading}
 	<h1>Loading...</h1>
 {/if}
 
 {#if !loading}
-	<section id="bracket">
-		<div class="info">Last Update: <input type="text" bind:value={lastUpdate} /></div>
-		<div class="info">👻 = Not Playing | 😃 = Alive | 💀 = Dead | 👑 = Winner</div>
-		<div class="info">Click on team for players</div>
-		<div class="container">
-			{#each weeks as week, weekIndex}
-				<div class="week {week.current ? 'current' : ''}">
-					<div class="week-details">
-						<input type="text" bind:value={week.name} />
-						<br />
-						<span class="date">
-							<input type="text" bind:value={week.date} />
-						</span>
-						<br />
-						Current: <input type="checkbox" bind:checked={week.current} />
+	<!-- <h1>Players</h1>
+	{#each players as player, playerIndex}
+		<div>
+			{playerIndex}. <input type="text" bind:value={player} />
+		</div>
+	{/each}
+	<h1>Teams</h1>
+	{#each teams as team, teamIndex}
+		<div>
+			{teamIndex}. <input type="text" bind:value={team.name} />
+		</div>
+	{/each} -->
+
+	<h1>Weeks</h1>
+	{#each weeks as week, weekIndex}
+		<div class="week">
+			{week.name}
+			{#each week.matches as match, matchIndex}
+				<div class="match">
+					<div>Judge: <input type="number" bind:value={match.judge} /></div>
+					<div class="team">
+						<div>Team1: {teams[match.team1.id].name}</div>
+						{#each teams[match.team1.id].players as player, playerIndex}
+							<div class="player">
+								{players[player]}
+								<p>
+									Alive: <input type="checkbox" bind:checked={match.team1.alive[playerIndex]} />
+								</p>
+								<p>
+									Playing: <input type="checkbox" bind:checked={match.team1.playing[playerIndex]} />
+								</p>
+								<p>
+									Revives: <input type="number" bind:value={match.team1.revives[playerIndex]} />
+								</p>
+								<p>Kills:</p>
+								{#each match.team1.kills[playerIndex] as kill, killIndex}
+									<p>
+										{players[kill]}<button
+											on:click={() => {
+												match.team1.kills[playerIndex].splice(killIndex, 1);
+												match.team1.kills[playerIndex] = match.team1.kills[playerIndex];
+											}}>X</button
+										>
+									</p>
+								{/each}
+								<Select
+									{players}
+									enemies={teams[match.team2.id].players}
+									add={(index) => {
+										match.team1.kills[playerIndex].push(index);
+										match.team2.kills = match.team2.kills;
+									}}
+								/>
+							</div>
+						{/each}
 					</div>
-					{#each week.matches as match}
-						<Match {match} {judges} {players} {teams} />
-					{/each}
-					<button
-						on:click={() => {
-							addMatch(weekIndex);
-						}}>Add Match</button
-					>
+					<div class="team">
+						<div>Team2: {teams[match.team2.id].name}</div>
+						{#each teams[match.team2.id].players as player, playerIndex}
+							<div class="player">
+								{players[player]}
+								<p>
+									Alive: <input type="checkbox" bind:checked={match.team2.alive[playerIndex]} />
+								</p>
+								<p>
+									Playing: <input type="checkbox" bind:checked={match.team2.playing[playerIndex]} />
+								</p>
+								<p>
+									Revives: <input type="number" bind:value={match.team2.revives[playerIndex]} />
+								</p>
+								<p>Kills:</p>
+								{#each match.team2.kills[playerIndex] as kill}
+									<p>{players[kill]}<button
+											on:click={() => {
+												match.team2.kills[playerIndex].splice(killIndex, 1);
+												match.team2.kills[playerIndex] = match.team2.kills[playerIndex];
+											}}>X</button
+										></p>
+								{/each}
+								<Select
+									{players}
+									enemies={teams[match.team1.id].players}
+									add={(index) => {
+										match.team2.kills[playerIndex].push(index);
+										match.team2.kills = match.team2.kills;
+									}}
+								/>
+							</div>
+						{/each}
+					</div>
 				</div>
 			{/each}
 		</div>
-		<button on:click={addWeek}>Add Week</button>
-		<button on:click={getData}>Get Data</button>
-	</section>
+	{/each}
+
+	<button on:click={getData}>Get Data</button>
 {/if}
 
-<Footer />
-
 <style type="text/css">
-	:global(body) {
-		font-family: 'Istok Web', sans-serif;
-		background: #000;
-		min-height: 100%;
-		margin: 0;
+	.week,
+	.match,
+	.team,
+	.player {
+		border: 2px solid black;
 	}
-
-	#bracket {
-		overflow: hidden;
-		background-color: #e1e1e1;
-		background-color: rgba(225, 225, 225, 0.9);
-		font-size: 12px;
-		padding: 40px 0;
-	}
-
-	.container {
-		max-width: 1100px;
-		margin: 0 auto;
-		display: block;
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-direction: row;
-		flex-direction: row;
-		gap: 20px;
-		margin-top: 20px;
-	}
-
-	.info {
-		width: 100%;
-		text-align: center;
-	}
-
-	.week {
-		display: block;
-		/*float: left;*/
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
-		-webkit-flex-direction: column;
-		flex-direction: column;
-		width: 100%;
-	}
-
-	.week-details {
-		font-family: 'Roboto Condensed', sans-serif;
-		font-size: 13px;
-		color: #2c7399;
-		text-transform: uppercase;
-		text-align: center;
-		/*height: 40px;*/
-	}
-
-	.week li {
-		background-color: #fff;
-		box-shadow: none;
-		opacity: 0.45;
-	}
-
-	.current li {
-		opacity: 1;
-	}
-
-	.current li.team {
-		background-color: #fff;
-		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-		opacity: 1;
-	}
-
-	.date {
-		font-size: 10px;
-		letter-spacing: 2px;
-		font-family: 'Istok Web', sans-serif;
-		color: #3f915f;
-	}
-
-	@media screen and (min-width: 981px) and (max-width: 1099px) {
-		.container {
-			margin: 0 1%;
-		}
-	}
-
-	@media screen and (max-width: 980px) {
-		.container {
-			-webkit-flex-direction: column;
-			-moz-flex-direction: column;
-			flex-direction: column;
-		}
+	.player {
+		background-color: orange;
 	}
 </style>

@@ -16,7 +16,7 @@
 		weeks = null;
 
 	onMount(async () => {
-		const res = await fetch(`dataV2.json`);
+		const res = await fetch(`newData.json`);
 		data = await res.json();
 		lastUpdate = data.lastUpdate;
 		judges = data.judges;

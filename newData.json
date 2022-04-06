@@ -1,5 +1,5 @@
 {
-	"lastUpdate": "April 5 @ 9:15pm",
+	"lastUpdate": "April 6 @ 6:00pm",
 	"judges": ["Alvaro", "Brady", "Liv"],
 	"players": [
 		"Aaron Friedman",
@@ -203,166 +203,166 @@
 	],
 	"weeks": [
 		{
-            "name": "Week 2",
-            "current": true,
-            "date": "April 4",
-            "matches": [
-                {
-                    "team1": {
-                        "id": 5,
-                        "alive": [true, true, true, true, true, false],
-                        "playing": [true, true, true, true, true, false],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[60], [], [], [], [], []]
-                    },
-                    "team2": {
-                        "id": 12,
-                        "alive": [true, false, true, true, false, true],
-                        "playing": [true, true, true, true, false, true],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], [], []]
-                    },
-                    "judge": 0
-                },
-                {
-                    "team1": {
-                        "id": 30,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "team2": {
-                        "id": 17,
-                        "alive": [true, true, true, true, true, false],
-                        "playing": [true, true, true, true, true, false],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], [], []]
-                    },
-                    "judge": 0
-                },
-                {
-                    "team1": {
-                        "id": 27,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "team2": {
-                        "id": 10,
-                        "alive": [true, false, true, true, true, true],
-                        "playing": [true, false, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], [], []]
-                    },
-                    "judge": 0
-                },
-                {
-                    "team1": {
-                        "id": 20,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "team2": {
-                        "id": 9,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "judge": 1
-                },
-                {
-                    "team1": {
-                        "id": 35,
-                        "alive": [true, true, true, true, true, false],
-                        "playing": [true, true, true, true, true, false],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], [], []]
-                    },
-                    "team2": {
-                        "id": 14,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "judge": 1
-                },
-                {
-                    "team1": {
-                        "id": 33,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 1, 0],
-                        "kills": [[19], [23], [], [], []]
-                    },
-                    "team2": {
-                        "id": 22,
-                        "alive": [true, false, true, false, true, true],
-                        "playing": [true, false, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 1, 0],
-                        "kills": [[], [], [171], [], [], []]
-                    },
-                    "judge": 1
-                },
-                {
-                    "team1": {
-                        "id": 3,
-                        "alive": [true, true, true, false, true, true],
-                        "playing": [true, true, true, false, true, true],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], [170], []]
-                    },
-                    "team2": {
-                        "id": 1,
-                        "alive": [false, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "judge": 2
-                },
-                {
-                    "team1": {
-                        "id": 6,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "team2": {
-                        "id": 18,
-                        "alive": [true, true, true, true, false, true],
-                        "playing": [true, true, true, true, false, true],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], [], []]
-                    },
-                    "judge": 2
-                },
-                {
-                    "team1": {
-                        "id": 28,
-                        "alive": [true, true, true, true, true, false],
-                        "playing": [true, true, true, true, true, false],
-                        "revives": [0, 0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], [], []]
-                    },
-                    "team2": {
-                        "id": 25,
-                        "alive": [true, true, true, true, true],
-                        "playing": [true, true, true, true, true],
-                        "revives": [0, 0, 0, 0, 0],
-                        "kills": [[], [], [], [], []]
-                    },
-                    "judge": 2
-                }
-            ]
-        },
-        {
+			"name": "Week 2",
+			"current": true,
+			"date": "April 4",
+			"matches": [
+				{
+					"team1": {
+						"id": 5,
+						"alive": [true, true, true, true, true, false],
+						"playing": [true, true, true, true, true, false],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[60], [], [], [], [], []]
+					},
+					"team2": {
+						"id": 12,
+						"alive": [true, false, true, true, false, true],
+						"playing": [true, true, true, true, false, true],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], [], []]
+					},
+					"judge": 0
+				},
+				{
+					"team1": {
+						"id": 30,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"team2": {
+						"id": 17,
+						"alive": [true, true, true, true, true, false],
+						"playing": [true, true, true, true, true, false],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], [], []]
+					},
+					"judge": 0
+				},
+				{
+					"team1": {
+						"id": 27,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"team2": {
+						"id": 10,
+						"alive": [true, false, true, true, true, true],
+						"playing": [true, false, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], [], []]
+					},
+					"judge": 0
+				},
+				{
+					"team1": {
+						"id": 20,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"team2": {
+						"id": 9,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"judge": 1
+				},
+				{
+					"team1": {
+						"id": 35,
+						"alive": [true, true, true, true, true, false],
+						"playing": [true, true, true, true, true, false],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], [], []]
+					},
+					"team2": {
+						"id": 14,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"judge": 1
+				},
+				{
+					"team1": {
+						"id": 33,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 1, 0],
+						"kills": [[19], [23], [], [], []]
+					},
+					"team2": {
+						"id": 22,
+						"alive": [true, false, true, false, true, true],
+						"playing": [true, false, true, true, true, true],
+						"revives": [0, 0, 0, 0, 1, 0],
+						"kills": [[], [], [171], [], [], []]
+					},
+					"judge": 1
+				},
+				{
+					"team1": {
+						"id": 3,
+						"alive": [true, true, true, false, true, true],
+						"playing": [true, true, true, false, true, true],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], [170], []]
+					},
+					"team2": {
+						"id": 1,
+						"alive": [false, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"judge": 2
+				},
+				{
+					"team1": {
+						"id": 6,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"team2": {
+						"id": 18,
+						"alive": [true, true, true, true, false, true],
+						"playing": [true, true, true, true, false, true],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], [], []]
+					},
+					"judge": 2
+				},
+				{
+					"team1": {
+						"id": 28,
+						"alive": [true, true, true, false, true, false],
+						"playing": [true, true, true, true, true, false],
+						"revives": [0, 0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], [], []]
+					},
+					"team2": {
+						"id": 25,
+						"alive": [true, true, true, true, true],
+						"playing": [true, true, true, true, true],
+						"revives": [0, 0, 0, 0, 0],
+						"kills": [[], [], [], [], []]
+					},
+					"judge": 2
+				}
+			]
+		},
+		{
 			"name": "Week 1",
 			"current": true,
 			"date": "March 28",
